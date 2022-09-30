@@ -4,6 +4,6 @@ from .models import Pessoa
 # Create your views here.
 
 
-class ListaPessoa(ListView):
+class ListaPessoaView(ListView):
     model = Pessoa
-    queryset = Pessoa.objects.all().order_by('nome_completo')
+    queryset = Pessoa.objects.all().order_by('id')
