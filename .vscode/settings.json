@@ -1,0 +1,12 @@
+{
+    "django.snippets.exclude": [
+    
+        "cms",
+        "wagtail"
+    ],
+    "eslint.validate": [
+    
+    ]
+
+    
+}
