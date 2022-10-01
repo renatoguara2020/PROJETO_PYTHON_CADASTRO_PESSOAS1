@@ -19,8 +19,8 @@
       <td>{{pessoa.nome_completo}}</td>
       <td>{{pessoa.email}}</td>
       <td>{{pessoa.ativo}}</td>
-      <td>{{pessoa.data_nascimento|date:'SHORT_DATE_FORMAT'}}</td>
-      <td>{{pessoa.data_cadastro|date:'SHORT_DATE_FORMAT'}}</td>
+      <td>{{pessoa.data_nascimento|date:'d/m/Y'}}</td>
+      <td>{{pessoa.data_cadastro|date:'d/m/Y'}}</td>
     </tr>
   </tbody>
   {%endfor%}
