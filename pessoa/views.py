@@ -13,3 +13,4 @@ class ListaPessoaView(ListView):
 class PessoaCreateView(CreateView):
     model = Pessoa
     form_class = PessoaForm
+    success_url = '/pessoa'
