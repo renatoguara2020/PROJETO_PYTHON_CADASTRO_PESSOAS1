@@ -12,7 +12,9 @@ class Pessoa(models.Model):
     email = models.EmailField(max_length=255)
     ativo = models.BooleanField(default=True)
     data_nascimento = models.DateField(null=True)
-    data_cadastro = models.DateTimeField(default=datetime.now())
+    data_cadastro = models.DateTimeField(null=True, blank=True
+
+                                         )
 
 
 def __str__(self) -> str:
