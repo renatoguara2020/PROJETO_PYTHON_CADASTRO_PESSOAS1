@@ -3,7 +3,7 @@ class Pessoa:
         self._nome = nome
         self.sobrenome = sobrenome
         self._idade = idade
-        self.data_nascimento = data_nascimento
+        self._data_nascimento = data_nascimento
 
     @property
     def nome(self):
