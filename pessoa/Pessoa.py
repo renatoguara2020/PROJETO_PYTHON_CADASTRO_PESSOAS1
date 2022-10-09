@@ -1,8 +1,9 @@
 class Pessoa:
-    def __init__(self, nome, sobrenome, idade):
+    def __init__(self, nome, sobrenome, idade, data_nascimento):
         self._nome = nome
         self.sobrenome = sobrenome
         self._idade = idade
+        self.data_nascimento = data_nascimento
 
     @property
     def nome(self):
